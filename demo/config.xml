@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.blyncsync.jinsmemeesdemo" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <feature name="Whitelist">
+        <param name="android-package" value="org.apache.cordova.whitelist.WhitelistPlugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <feature name="JinsMemeES">
+        <param name="android-package" value="com.jins_jp.meme.plugin" />
+        <param name="onload" value="true" />
+    </feature>
+    <name>JinsMemeES Demo</name>
+    <description>
+        A testing/framework Apache Cordova application used for making cordova-plugin-jins-meme-es.
+    </description>
+    <author email="dev@blyncsync.com" href="http://blyncsync.com">
+        BlyncSync Technologies, Josh Babb and Patrick Reames
+    </author>
+    <content src="index.html" />
+    <plugin name="cordova-plugin-whitelist" spec="1" />
+    <plugin name="com.jins_jp.meme.plugin" spec="https://github.com/jins-meme/JinsMemeSDK-Plugin-Cordova" />
+    <access origin="*" />
+    <allow-intent href="http://*/*" />
+    <allow-intent href="https://*/*" />
+    <allow-intent href="tel:*" />
+    <allow-intent href="sms:*" />
+    <allow-intent href="mailto:*" />
+    <allow-intent href="geo:*" />
+    <preference name="loglevel" value="DEBUG" />
+    <platform name="android">
+        <allow-intent href="market:*" />
+    </platform>
+    <platform name="ios">
+        <allow-intent href="itms:*" />
+        <allow-intent href="itms-apps:*" />
+    </platform>
+    <engine name="android" spec="~6.0.0" />
+    <engine name="ios" spec="~4.3.1" />
+</widget>

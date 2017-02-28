@@ -1,0 +1,18 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.jins_jp.meme.plugin": {
+            "PACKAGE_NAME": "com.blyncsync.jinsmemeesdemo"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.blyncsync.jinsmemeesdemo"
+        }
+    },
+    "dependent_plugins": {}
+}
