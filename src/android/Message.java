@@ -57,7 +57,7 @@ class Message {
      * @param memeRealtimeData JINS MEME real time data
      * @return json object
      */
-    static JSONObject covertToJSONObject(final MemeRealtimeData memeRealtimeData) throws JSONException {
+    static JSONObject convertToJSONObject(final MemeRealtimeData memeRealtimeData) throws JSONException {
         JSONObject data = new JSONObject();
 
         data.put("eyeMoveUp", memeRealtimeData.getEyeMoveUp());

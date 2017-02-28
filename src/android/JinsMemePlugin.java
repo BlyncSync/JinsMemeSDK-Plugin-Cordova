@@ -321,7 +321,7 @@ public class JinsMemePlugin extends CordovaPlugin {
                     public void run() {
                         if (mIsRunning && isAvailable(mDataReportCallback)) {
                             try {
-                                PluginResult result = new PluginResult(PluginResult.Status.OK, Message.covertToJSONObject(memeRealtimeData));
+                                PluginResult result = new PluginResult(PluginResult.Status.OK, Message.convertToJSONObject(memeRealtimeData));
                                 result.setKeepCallback(true);
                                 mDataReportCallback.sendPluginResult(result);
                             } catch (JSONException e) {
