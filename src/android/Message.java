@@ -47,7 +47,7 @@ class Message {
      * @param data some boolean value
      * @return 1: true, 0: false
      */
-    static int covertToInt(final boolean data) {
+    static int convertToInt(final boolean data) {
         return data ? 1 : 0;
     }
 
